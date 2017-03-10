@@ -1,0 +1,194 @@
+
+.z-header {
+    min-width:360px ;
+    padding:10px 0;
+    background-color: #00b3ee;
+
+}
+/*头部导航样式*/
+
+.z-header .z-nav{
+    position: relative;
+    background-color: #00b3ee;
+    border-color: #00b3ee;
+    color: white;
+}
+.z-header .z-nav::before{
+    position: relative;
+}
+.z-header .z-title{
+    font-size: 2vmax;
+}
+@keyframes pulse {
+    from {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+
+    50% {
+        -webkit-transform: scale3d(1.05, 1.05, 1.05);
+        transform: scale3d(1.05, 1.05, 1.05);
+    }
+
+    to {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+.z-header .z-scroll-bar{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    /*width: 100px;*/
+    height: 10px;
+    background-color: white;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.z-header .z-container{
+    margin-top: 10px;
+}
+.z-header .z-img{
+    padding-right: 5px;
+}
+
+.z-header .z-nav li a, .z-header .z-nav a{
+    color: white;
+}
+.z-header .z-nav li a:hover{
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+
+
+}
+.z-header .z-button{
+    border-color: #00b3ee;
+    background-color: white;
+}
+.z-header .z-button:hover{
+    background-color: white;
+
+}
+/*左侧手风琴样式*/
+
+.align-middle,
+.card .card-header *:not(.material-icons) {
+    vertical-align: middle;
+}
+.card {
+    position: relative;
+    border-radius: 2px;
+    background: #fff;
+    box-sizing: border-box;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.card * {
+    box-sizing: border-box;
+}
+.card.active {
+    z-index: 2;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23) !important;
+}
+.card hr {
+    padding: 0;
+    margin: 0;
+}
+.card .card-header,
+.card .card-main,
+.card .card-footer {
+    padding: 1.15em 1.5em;
+}
+.card .card-header .card-title {
+    margin: 0;
+    font-size: 20px;
+    line-height: 20px;
+    padding-left: 5px;
+    display: inline-block;
+}
+.card-list {
+    padding: 0;
+    list-style-type: none;
+}
+.card-list .card {
+    cursor: pointer;
+    border-radius: 0;
+}
+.card-list .card:first-child {
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+.card-list .card:last-child {
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+.card-list .card.active {
+    margin: 1em -1em !important;
+    border-radius: 2px;
+}
+.card-list .card.active .card-inner {
+    max-height: 500px;
+}
+.card-list .card:hover {
+    z-index: 1;
+    margin: .2em -.2em;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.card-list .card .card-inner {
+    transition: max-height 1s cubic-bezier(0.25, 0.8, 0.25, 1);
+    max-height: 0;
+    overflow: hidden;
+}
+.card-list .z-list-unstyled .z-li:hover {
+    z-index: 1;
+    margin: .2em -.2em;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.card-list .z-list-unstyled{
+    margin-left: 10px;
+    font-size: 16px;
+
+}
+
+/*右侧表格样式*/
+.z-section .z-button{
+    background-color: orange;
+    color: white;
+    width: 240px;
+    margin-left: 38px;
+}
+.z-section .z-lable{
+    margin-right: 20px;
+}
+.z-section input{
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+
+
+}
+.z-form-grop{
+    padding-left: 40px;
+}
+.z-ul-active{
+    width: 100%;
+}
+.z-panel-default {
+    border:0;
+}
+.z-table{
+    margin: 30px 0;
+}
+.z-table tr td,.z-table tr th{
+    text-overflow: ellipsis; /* for IE */
+    -moz-text-overflow: ellipsis; /* for Firefox,mozilla */
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 1.5vmin;
+}
+.z-section .z-button:hover{
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+
+}
+
+
+
+
+

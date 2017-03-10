@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+
+    <script src="js/adminssion-ticket.js"></script>
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/admission-ticket.css">
+
+</head>
+<body>
+<!--头部导航条-->
+   <header class="z-header">
+        <nav class="navbar navbar-default z-nav">
+            <div class="container-fluid z-container">
+                <div class="navbar-header ">
+                    <button type="button" class="navbar-toggle collapsed z-button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                   <img src="img/logo.png" alt="" class="pull-left z-img img-responsive">
+                    <span class="navbar-brand z-title pulse" href="#">门票管理系统</span>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav pull-right z-nav" >
+                        <li class="z-first"><a href="#">首页 <span class="sr-only">(current)</span></a></li>
+                        <li><a href="#">订单管理</a></li>
+                        <li><a href="#">产品管理</a></li>
+                        <li><a href="#">数据分析</a></li>
+                        <li><a href="#">话务管理</a></li>
+                        <li><a href="#">商家信息管理</a></li>
+                        <li><a href="#">门票服务</a></li>
+                        <li><a href="#">商家服务中心</a></li>
+                        <div class="z-scroll-bar"></div>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+   </header>
+
+<section class="z-section row">
+    <!--内容左侧列表页-->
+
+    <div class="col-md-2">
+
+
+        <ul class="card-list">
+            <li class="card">
+                <div class="card-header">
+                    <span class="caret"></span><h2 class="card-title"> 门票订单</h2>
+                </div>
+                <div class="card-inner">
+                    <hr>
+                    <div class="card-main">
+
+                        <ul class="list-unstyled z-list-unstyled">
+                            <li class="z-li "><span class="caret"></span> 门票订单</li>
+                            <li class="z-li "><span class="caret"></span> 门票订单</li>
+                            <li class="z-li "><span class="caret"></span> 门票订单</li>
+                            <li class="z-li "><span class="caret"></span> 门票订单</li>
+                        </ul>
+
+                    </div>
+                    <hr/>
+
+                </div>
+            </li>
+        </ul>
+
+    </div>
+
+    <!--右侧内容表单页-->
+
+    <div class="col-md-10 col-xs-12">
+        <h3 class="z-h3">快速验证</h3>
+
+        <form class="form-inline">
+            <div class="form-group z-form-grop">
+                <label for="exampleInputName2" class="z-lable">验证码</label>
+                <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+            </div>
+            <button type="submit" class="btn btn-default z-button">查询</button>
+
+        </form>
+
+        <table class="table z-table">
+            <thead>
+            <tr>
+                <th>订单号</th>
+                <th>产品名称</th>
+                <th>价格&人数</th>
+                <th>联系人/电话</th>
+                <th>下单日期</th>
+                <th>状态</th>
+                <th>实付金额</th>
+            </tr>
+            <thead>
+        </table>
+
+        <table class="table z-table">
+
+           <h3 class="z-h3">验证成功记录</h3>
+            <thead>
+            <tr>
+                <th>产品名称</th>
+                <th>验证时间</th>
+                <th>验证张数</th>
+                <th>联系人/电话</th>
+                <th>qunar电子码</th>
+                <th>操作人</th>
+            </tr>
+            </thead>
+
+            <tbody>
+
+            <tr>
+                <td>普通线上回归产品-多信息</td>
+                <td>2017-02-20 15:36:03</td>
+                <td>1</td>
+                <td>13015644150</td>
+                <td></td>
+                <td>zhafganafpk</td>
+            </tr>
+
+            </tbody>
+
+
+
+        </table>
+
+    </div>
+
+</section>
+
+
+</body>
+</html>

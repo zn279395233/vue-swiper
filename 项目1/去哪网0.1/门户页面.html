@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+
+
+</head>
+<body>
+
+</body>
+</html>
+
+<script>
+    $.ajax({
+        url:"./门票管理系统.html",
+        dataType:"html",
+        success:function (res) {
+            $("body").html(res)
+        },
+        error:function (err) {
+            console.log(err)
+
+        }
+    })
+
+</script>
