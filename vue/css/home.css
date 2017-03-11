@@ -1,0 +1,43 @@
+*{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.swiper-container {
+    width: 16.08939rem;
+    height: 8.93855rem;
+    overflow: hidden;
+}
+.swiper-container img{
+    width: 16.08939rem;
+}
+.swiper-scrollbar{
+    visibility: hidden;
+}
+#home{
+    width: 16.08939rem;
+    height: 15.10615rem;
+}
+#home .home-list{
+    padding-left: 0.11918rem;
+    color: forestgreen;
+    width: 16.08939rem;
+    margin-top: 0.5959rem;
+    height: 5.06518rem ;
+
+}
+#home h3{
+    font-size: 0.595903rem;
+}
+#home .home-ion{
+    float: left;
+    width:5.21415rem;
+    text-align:center;
+}
+#home img{
+    margin-bottom: 0.29795rem;
+    width: 2.97952rem;
+    height: 2.97952rem;
+}

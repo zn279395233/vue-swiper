@@ -46,8 +46,8 @@
       <file leaf-file-name="门户页面.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/门户页面.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+            <state relative-caret-position="513">
+              <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -112,8 +112,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="807" />
-    <option name="y" value="17" />
+    <option name="x" value="838" />
+    <option name="y" value="44" />
     <option name="width" value="1465" />
     <option name="height" value="1015" />
   </component>
@@ -309,15 +309,15 @@
       <workItem from="1489030403046" duration="22920000" />
       <workItem from="1489108656016" duration="1608000" />
       <workItem from="1489111922589" duration="5848000" />
-      <workItem from="1489121029144" duration="133000" />
+      <workItem from="1489121029144" duration="1792000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30509000" />
+    <option name="totallyTimeSpent" value="32168000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="807" y="17" width="1465" height="1015" extended-state="0" />
+    <frame x="838" y="44" width="1465" height="1015" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28731605" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -582,8 +582,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/门户页面.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+        <state relative-caret-position="513">
+          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
           <folding />
         </state>
       </provider>

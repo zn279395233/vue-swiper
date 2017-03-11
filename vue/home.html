@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width,initial-scale=0.67, minimum-scale=0.67, maximum-scale=0.67, user-scalable=no"/>
+    <script src="node_modules/vue/dist/vue.js"></script>
+    <!--<script src="node_modules/vue-ui/dist/semantic-modules.js"></script>-->
+    <script src="node_modules/vue-router/dist/vue-router.js"></script>
+    <link rel="stylesheet" href="node_modules/swiper/dist/css/swiper.css">
+    <script src="node_modules/swiper/dist/js/swiper.js"></script>
+    <script src="js/rem/get-rem.js"></script>
+    <link rel="stylesheet" href="css/home.css">
+
+
+</head>
+<body>
+
+<!--轮播图-->
+
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <img src="img/1.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+            <img src="img/2.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+            <img src="img/3.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+            <img src="img/4.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+            <img src="img/5.jpg" alt="">
+        </div>
+    </div>
+    <!-- 如果需要分页器 -->
+    <!--<div class="swiper-pagination"></div>-->
+
+    <!-- 如果需要导航按钮 -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+
+    <!-- 如果需要滚动条 -->
+    <div class="swiper-scrollbar"></div>
+</div>
+<div id="home" >
+
+    <div class="home-list" v-for ="item in items">
+        <div v-for="ite in item" class="home-ion" >
+            <router-link  to="/home-detail">
+                <img :src="ite.img">
+                <h3>{{ite.title}}</h3>
+            </router-link>
+        </div>
+    </div>
+<!--内容-->
+<router-view>
+
+
+</router-view>
+
+</div>
+
+</body>
+</html>
+
+
+<script type="text/x-template" id="home-detail">
+<div>
+    "home-detail
+</div>
+
+
+</script>
+
+
+</body>
+
+<script>
+    var HomeDetail = {
+        template:"#home-detail"
+    }
+    routes = [
+        {path:"/home-detail",component:HomeDetail}
+    ]
+    var router = new VueRouter({
+        routes:routes
+    })
+    var app = new Vue({
+        el:"#home",
+        data: {
+            items: {
+                title1: {
+                    title11: {
+                        img: "img/1.jpg",
+                        title: "门票预订",
+                    },
+                    title12: {
+                        img: "img/1.jpg",
+                        title: "门票预订",
+                    },
+                    title13: {
+                        img: "img/1.jpg",
+                        title: "门票预订",
+                    }
+                },
+                title2: {
+                    title21: {
+                        img: "img/1.jpg",
+                        title: "门票预订",
+                    },
+                    title22: {
+                        img: "img/1.jpg",
+                        title: "门票预订",
+                    },
+                    title23: {
+                        img: "img/1.jpg",
+                        title: "门票预订",
+                    }
+                },
+                title3: {
+                    title31: {
+                        img: "img/1.jpg",
+                        title: "门票预订",
+                    },
+                    title32: {
+                        img: "img/1.jpg",
+                        title: "门票预订",
+                    },
+                    title33: {
+                        img: "img/1.jpg",
+                        title: "门票预订",
+                    }
+                }
+            }
+        },
+        router:router
+    })
+</script>
